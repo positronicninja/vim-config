@@ -174,3 +174,6 @@
 [submodule "bundle/slim"]
 	path = bundle/slim
 	url = git://github.com/slim-template/vim-slim.git
+[submodule "bundle/youcompleteme"]
+	path = bundle/youcompleteme
+	url = git://github.com/Valloric/YouCompleteMe.git
