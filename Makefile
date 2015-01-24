@@ -36,6 +36,7 @@ $(HOME)/.%: %
 
 install: $(clearfiles) $(TARGETS)
 	git submodule update --init
+	cd bundle/youcompleteme; sh install.sh
 
 update:
 	git pull
