@@ -177,3 +177,9 @@
 [submodule "bundle/youcompleteme"]
 	path = bundle/youcompleteme
 	url = git://github.com/Valloric/YouCompleteMe.git
+[submodule "bundle/delimitMate"]
+	path = bundle/delimitMate
+	url = git://github.com/Raimondi/delimitMate.git
+[submodule "bundle/closetag"]
+	path = bundle/closetag
+	url = git://github.com/docunext/closetag.vim.git
