@@ -192,3 +192,6 @@
 [submodule "vim-commentary"]
 	path = vim-commentary
 	url = git://github.com/tpope/vim-commentary.git
+[submodule "airline"]
+	path = airline
+	url = git@github.com:bling/vim-airline.git
