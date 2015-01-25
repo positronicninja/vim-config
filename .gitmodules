@@ -195,3 +195,6 @@
 [submodule "airline"]
 	path = airline
 	url = git@github.com:bling/vim-airline.git
+[submodule "fonts"]
+	path = fonts
+	url = git@github.com:powerline/fonts.git
