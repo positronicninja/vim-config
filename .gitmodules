@@ -189,3 +189,6 @@
 [submodule "bundle/easymotion"]
 	path = bundle/easymotion
 	url = git://github.com/Lokaltog/vim-easymotion.git
+[submodule "vim-commentary"]
+	path = vim-commentary
+	url = git://github.com/tpope/vim-commentary.git
