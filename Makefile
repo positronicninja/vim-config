@@ -36,7 +36,8 @@ $(HOME)/.%: %
 
 install: $(clearfiles) $(TARGETS)
 	git submodule update --init
-	cd bundle/youcompleteme; sh install.sh
+	cd ~/.vim/bundle/youcompleteme; sh install.sh
+	cd ~/.vim/bundle/vimproc; make
 
 update:
 	git pull
