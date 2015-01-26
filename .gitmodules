@@ -197,7 +197,7 @@
 	url = git@github.com:powerline/fonts.git
 [submodule "bundle/unite.vim"]
 	path = bundle/unite.vim
-	url = git@github.com:Shougo/unite.vim.git
+	url = git://github.com/Shougo/unite.vim.git
 [submodule "bundle/vimproc"]
 	path = bundle/vimproc
 	url = git://github.com/Shougo/vimproc.vim.git
