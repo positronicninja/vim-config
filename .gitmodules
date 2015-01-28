@@ -201,3 +201,6 @@
 [submodule "bundle/vimproc"]
 	path = bundle/vimproc
 	url = git://github.com/Shougo/vimproc.vim.git
+[submodule "bundle/taboo"]
+	path = bundle/taboo
+	url = git://github.com/gcmt/taboo.vim.git
