@@ -204,3 +204,6 @@
 [submodule "bundle/taboo"]
 	path = bundle/taboo
 	url = git://github.com/gcmt/taboo.vim.git
+[submodule "bundle/indentguides"]
+	path = bundle/indentguides
+	url = git://github.com/nathanaelkane/vim-indent-guides.git
