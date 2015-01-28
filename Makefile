@@ -35,13 +35,13 @@ $(HOME)/.%: %
 	ln -fs $(PWD)/$< $@
 
 install: $(clearfiles) $(TARGETS)
-	git submodule update --init
+	git submodule update --init --recursive
 	cd ~/.vim/bundle/youcompleteme; sh install.sh
 	cd ~/.vim/bundle/vimproc; make
 
 update:
 	git pull
 	git submodule sync
-	git submodule update --init
+	git submodule update --init --recursive
 
 .PHONY: install update clean_mine
